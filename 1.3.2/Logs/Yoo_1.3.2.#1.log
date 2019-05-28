@@ -1,0 +1,59 @@
+# IPython log file
+
+import matplotlib
+matplotlib.use('Agg")
+matplotlib.use('Agg')
+import matplotlib.pyplot as plts
+import matplotlib.pyplot as plt
+import numpy as np
+a = np.random.randn(10000)
+plt.hist(a)
+#[Out]# (array([  1.10000000e+01,   9.50000000e+01,   5.61000000e+02,
+#[Out]#          1.93900000e+03,   3.19300000e+03,   2.66200000e+03,
+#[Out]#          1.23000000e+03,   2.80000000e+02,   2.70000000e+01,
+#[Out]#          2.00000000e+00]), array([-3.95409679, -3.12160479, -2.28911279, -1.45662079, -0.62412878,
+#[Out]#         0.20836322,  1.04085522,  1.87334722,  2.70583922,  3.53833122,
+#[Out]#         4.37082322]), <a list of 10 Patch objects>)
+plt.savefig('1.3.2/Histogram')
+%logstart -ort 1.3.2/Logs/Yoo_1.3.2.#.log
+# Hwapyeong Yoo 1.3.2 IPython log
+# 5. The code above created a histogram png.
+5 + 3
+#[Out]# 8
+# 7a. When multiplying, if the entire expression is ints, then the answer will be an int, but if there is even one float, then the answer will be a float.
+# 7b. int/int is returns a int but an int/float returns a float.
+# 8. Assignment
+student_age = 16
+23**43
+#[Out]# 35834136918934220777541995677272642015423987712183913488967L
+# 9. 23**43 is 35834136918934220777541995677272642015423987712183913488967L
+%run 1.3.2/Yoo_1.3.2.py
+%run 1.3.2/Yoo_1.3.2.py
+# 11. It lets you create a larger scale program.
+ %run 1.3.2/Yoo_1.3.2.py
+add_tip(30, 0.15)
+#[Out]# 34.5
+# 12. Scratch and AppInventor had if statement blocks that looked like brakets which would hold all the contents of that function inside it.
+# 13. To explain to the user what the function is supposed to perform.
+# 14. It may possibly save storage space and memory.
+add_tip(5,0.20)
+#[Out]# 6.0
+# 15. A compiler would be like translating the entire business plan and then getting one large  reaction from the partner.
+ %run 1.3.2/Yoo_1.3.2.py
+hyp(5, 5)
+hyp(5,5)
+hyp(5,5)
+ %run 1.3.2/Yoo_1.3.2.py
+hyp(5,5)
+#[Out]# 7.0710678118654755
+%logstop
+# Fri, 07 Dec 2018 23:24:02
+ %run 1.3.2/Yoo_1.3.2.py
+# Fri, 07 Dec 2018 23:24:13
+mean(1,1,1)
+# Fri, 07 Dec 2018 23:24:25
+mean(44,44,44)
+# Fri, 07 Dec 2018 23:24:39
+mean(2 , 4 ,6)
+# Fri, 07 Dec 2018 23:25:14
+%logstop
